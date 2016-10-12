@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target:Enjoysports do
+
+pod 'AFNetworking', '~> 3.0'
+
+
+pod 'SDWebImage', '~>3.7'
+
+pod 'ECSlidingViewController', '~> 2.0.3'
+
+pod 'SVProgressHUD'
+
+pod 'pop', '~> 1.0'
+
+pod "JElasticPullToRefresh"
+
+
+pod 'Toast', '~> 3.0'
+end

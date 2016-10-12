@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B219B2A155B905B64505A2 /* libPods-Enjoysports.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 259A9490F59987CF9A586D05 /* libPods-Enjoysports.a */; };
+		B2409ADD1DAE1715006D9E94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2409ADC1DAE1715006D9E94 /* main.m */; };
+		B2409AE01DAE1715006D9E94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2409ADF1DAE1715006D9E94 /* AppDelegate.m */; };
+		B2409AE31DAE1715006D9E94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2409AE21DAE1715006D9E94 /* ViewController.m */; };
+		B2409AE91DAE1715006D9E94 /* Enjoysports.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2409AE71DAE1715006D9E94 /* Enjoysports.xcdatamodeld */; };
+		B2409AEB1DAE1715006D9E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2409AEA1DAE1715006D9E94 /* Assets.xcassets */; };
+		B2409AEE1DAE1715006D9E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2409AEC1DAE1715006D9E94 /* LaunchScreen.storyboard */; };
+		B2409AF91DAE1715006D9E94 /* EnjoysportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2409AF81DAE1715006D9E94 /* EnjoysportsTests.m */; };
+		B2409B041DAE1715006D9E94 /* EnjoysportsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2409B031DAE1715006D9E94 /* EnjoysportsUITests.m */; };
+		B2409B121DAE1CEE006D9E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2409B111DAE1CEE006D9E94 /* Main.storyboard */; };
+		B2409B171DAE29B2006D9E94 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2409B151DAE29B2006D9E94 /* Home.storyboard */; };
+		B2409B181DAE29B2006D9E94 /* Sliding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2409B161DAE29B2006D9E94 /* Sliding.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2409AF51DAE1715006D9E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2409AD01DAE1715006D9E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2409AD71DAE1715006D9E94;
+			remoteInfo = Enjoysports;
+		};
+		B2409B001DAE1715006D9E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2409AD01DAE1715006D9E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2409AD71DAE1715006D9E94;
+			remoteInfo = Enjoysports;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		259A9490F59987CF9A586D05 /* libPods-Enjoysports.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Enjoysports.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B26D3368232A3F210F36C1 /* Pods-Enjoysports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enjoysports.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Enjoysports/Pods-Enjoysports.debug.xcconfig"; sourceTree = "<group>"; };
+		98A3F8C1B68A11CF25F5FEA8 /* Pods-Enjoysports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enjoysports.release.xcconfig"; path = "Pods/Target Support Files/Pods-Enjoysports/Pods-Enjoysports.release.xcconfig"; sourceTree = "<group>"; };
+		B2409AD81DAE1715006D9E94 /* Enjoysports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enjoysports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2409ADC1DAE1715006D9E94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2409ADE1DAE1715006D9E94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2409ADF1DAE1715006D9E94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2409AE11DAE1715006D9E94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2409AE21DAE1715006D9E94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2409AE81DAE1715006D9E94 /* Enjoysports.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Enjoysports.xcdatamodel; sourceTree = "<group>"; };
+		B2409AEA1DAE1715006D9E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2409AED1DAE1715006D9E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2409AEF1DAE1715006D9E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2409AF41DAE1715006D9E94 /* EnjoysportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoysportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2409AF81DAE1715006D9E94 /* EnjoysportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnjoysportsTests.m; sourceTree = "<group>"; };
+		B2409AFA1DAE1715006D9E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2409AFF1DAE1715006D9E94 /* EnjoysportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoysportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2409B031DAE1715006D9E94 /* EnjoysportsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnjoysportsUITests.m; sourceTree = "<group>"; };
+		B2409B051DAE1715006D9E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2409B111DAE1CEE006D9E94 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B2409B151DAE29B2006D9E94 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B2409B161DAE29B2006D9E94 /* Sliding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sliding.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2409AD51DAE1715006D9E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B219B2A155B905B64505A2 /* libPods-Enjoysports.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2409AF11DAE1715006D9E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2409AFC1DAE1715006D9E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82928FA1734C9EBADCB5ED6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259A9490F59987CF9A586D05 /* libPods-Enjoysports.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2409ACF1DAE1715006D9E94 = {
+			isa = PBXGroup;
+			children = (
+				B2409ADA1DAE1715006D9E94 /* Enjoysports */,
+				B2409AF71DAE1715006D9E94 /* EnjoysportsTests */,
+				B2409B021DAE1715006D9E94 /* EnjoysportsUITests */,
+				B2409AD91DAE1715006D9E94 /* Products */,
+				F703FAFF8661F636274FBC2A /* Pods */,
+				82928FA1734C9EBADCB5ED6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2409AD91DAE1715006D9E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2409AD81DAE1715006D9E94 /* Enjoysports.app */,
+				B2409AF41DAE1715006D9E94 /* EnjoysportsTests.xctest */,
+				B2409AFF1DAE1715006D9E94 /* EnjoysportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2409ADA1DAE1715006D9E94 /* Enjoysports */ = {
+			isa = PBXGroup;
+			children = (
+				B2409ADE1DAE1715006D9E94 /* AppDelegate.h */,
+				B2409ADF1DAE1715006D9E94 /* AppDelegate.m */,
+				B2409AE11DAE1715006D9E94 /* ViewController.h */,
+				B2409AE21DAE1715006D9E94 /* ViewController.m */,
+				B2409B111DAE1CEE006D9E94 /* Main.storyboard */,
+				B2409B151DAE29B2006D9E94 /* Home.storyboard */,
+				B2409B161DAE29B2006D9E94 /* Sliding.storyboard */,
+				B2409AEA1DAE1715006D9E94 /* Assets.xcassets */,
+				B2409AEC1DAE1715006D9E94 /* LaunchScreen.storyboard */,
+				B2409AEF1DAE1715006D9E94 /* Info.plist */,
+				B2409AE71DAE1715006D9E94 /* Enjoysports.xcdatamodeld */,
+				B2409ADB1DAE1715006D9E94 /* Supporting Files */,
+			);
+			path = Enjoysports;
+			sourceTree = "<group>";
+		};
+		B2409ADB1DAE1715006D9E94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2409ADC1DAE1715006D9E94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2409AF71DAE1715006D9E94 /* EnjoysportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2409AF81DAE1715006D9E94 /* EnjoysportsTests.m */,
+				B2409AFA1DAE1715006D9E94 /* Info.plist */,
+			);
+			path = EnjoysportsTests;
+			sourceTree = "<group>";
+		};
+		B2409B021DAE1715006D9E94 /* EnjoysportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2409B031DAE1715006D9E94 /* EnjoysportsUITests.m */,
+				B2409B051DAE1715006D9E94 /* Info.plist */,
+			);
+			path = EnjoysportsUITests;
+			sourceTree = "<group>";
+		};
+		F703FAFF8661F636274FBC2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69B26D3368232A3F210F36C1 /* Pods-Enjoysports.debug.xcconfig */,
+				98A3F8C1B68A11CF25F5FEA8 /* Pods-Enjoysports.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2409AD71DAE1715006D9E94 /* Enjoysports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2409B081DAE1715006D9E94 /* Build configuration list for PBXNativeTarget "Enjoysports" */;
+			buildPhases = (
+				8ED027BEA69ADE68BFF3B53A /* [CP] Check Pods Manifest.lock */,
+				B2409AD41DAE1715006D9E94 /* Sources */,
+				B2409AD51DAE1715006D9E94 /* Frameworks */,
+				B2409AD61DAE1715006D9E94 /* Resources */,
+				2642DAE695DFE58677F48559 /* [CP] Embed Pods Frameworks */,
+				BF1BEB66A9876FA6BF67836F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enjoysports;
+			productName = Enjoysports;
+			productReference = B2409AD81DAE1715006D9E94 /* Enjoysports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2409AF31DAE1715006D9E94 /* EnjoysportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2409B0B1DAE1715006D9E94 /* Build configuration list for PBXNativeTarget "EnjoysportsTests" */;
+			buildPhases = (
+				B2409AF01DAE1715006D9E94 /* Sources */,
+				B2409AF11DAE1715006D9E94 /* Frameworks */,
+				B2409AF21DAE1715006D9E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2409AF61DAE1715006D9E94 /* PBXTargetDependency */,
+			);
+			name = EnjoysportsTests;
+			productName = EnjoysportsTests;
+			productReference = B2409AF41DAE1715006D9E94 /* EnjoysportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2409AFE1DAE1715006D9E94 /* EnjoysportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2409B0E1DAE1715006D9E94 /* Build configuration list for PBXNativeTarget "EnjoysportsUITests" */;
+			buildPhases = (
+				B2409AFB1DAE1715006D9E94 /* Sources */,
+				B2409AFC1DAE1715006D9E94 /* Frameworks */,
+				B2409AFD1DAE1715006D9E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2409B011DAE1715006D9E94 /* PBXTargetDependency */,
+			);
+			name = EnjoysportsUITests;
+			productName = EnjoysportsUITests;
+			productReference = B2409AFF1DAE1715006D9E94 /* EnjoysportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2409AD01DAE1715006D9E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = admin1;
+				TargetAttributes = {
+					B2409AD71DAE1715006D9E94 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B2409AF31DAE1715006D9E94 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B2409AD71DAE1715006D9E94;
+					};
+					B2409AFE1DAE1715006D9E94 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B2409AD71DAE1715006D9E94;
+					};
+				};
+			};
+			buildConfigurationList = B2409AD31DAE1715006D9E94 /* Build configuration list for PBXProject "Enjoysports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2409ACF1DAE1715006D9E94;
+			productRefGroup = B2409AD91DAE1715006D9E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2409AD71DAE1715006D9E94 /* Enjoysports */,
+				B2409AF31DAE1715006D9E94 /* EnjoysportsTests */,
+				B2409AFE1DAE1715006D9E94 /* EnjoysportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2409AD61DAE1715006D9E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2409B181DAE29B2006D9E94 /* Sliding.storyboard in Resources */,
+				B2409B121DAE1CEE006D9E94 /* Main.storyboard in Resources */,
+				B2409AEE1DAE1715006D9E94 /* LaunchScreen.storyboard in Resources */,
+				B2409AEB1DAE1715006D9E94 /* Assets.xcassets in Resources */,
+				B2409B171DAE29B2006D9E94 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2409AF21DAE1715006D9E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2409AFD1DAE1715006D9E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2642DAE695DFE58677F48559 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Enjoysports/Pods-Enjoysports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED027BEA69ADE68BFF3B53A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1BEB66A9876FA6BF67836F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Enjoysports/Pods-Enjoysports-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2409AD41DAE1715006D9E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2409AE91DAE1715006D9E94 /* Enjoysports.xcdatamodeld in Sources */,
+				B2409AE31DAE1715006D9E94 /* ViewController.m in Sources */,
+				B2409AE01DAE1715006D9E94 /* AppDelegate.m in Sources */,
+				B2409ADD1DAE1715006D9E94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2409AF01DAE1715006D9E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2409AF91DAE1715006D9E94 /* EnjoysportsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2409AFB1DAE1715006D9E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2409B041DAE1715006D9E94 /* EnjoysportsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2409AF61DAE1715006D9E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2409AD71DAE1715006D9E94 /* Enjoysports */;
+			targetProxy = B2409AF51DAE1715006D9E94 /* PBXContainerItemProxy */;
+		};
+		B2409B011DAE1715006D9E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2409AD71DAE1715006D9E94 /* Enjoysports */;
+			targetProxy = B2409B001DAE1715006D9E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2409AEC1DAE1715006D9E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2409AED1DAE1715006D9E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2409B061DAE1715006D9E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2409B071DAE1715006D9E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2409B091DAE1715006D9E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B26D3368232A3F210F36C1 /* Pods-Enjoysports.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Enjoysports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jxxd.Enjoysports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2409B0A1DAE1715006D9E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A3F8C1B68A11CF25F5FEA8 /* Pods-Enjoysports.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Enjoysports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jxxd.Enjoysports;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2409B0C1DAE1715006D9E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnjoysportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jxxd.EnjoysportsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enjoysports.app/Enjoysports";
+			};
+			name = Debug;
+		};
+		B2409B0D1DAE1715006D9E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnjoysportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jxxd.EnjoysportsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enjoysports.app/Enjoysports";
+			};
+			name = Release;
+		};
+		B2409B0F1DAE1715006D9E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnjoysportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jxxd.EnjoysportsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Enjoysports;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B2409B101DAE1715006D9E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnjoysportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jxxd.EnjoysportsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Enjoysports;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2409AD31DAE1715006D9E94 /* Build configuration list for PBXProject "Enjoysports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2409B061DAE1715006D9E94 /* Debug */,
+				B2409B071DAE1715006D9E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2409B081DAE1715006D9E94 /* Build configuration list for PBXNativeTarget "Enjoysports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2409B091DAE1715006D9E94 /* Debug */,
+				B2409B0A1DAE1715006D9E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2409B0B1DAE1715006D9E94 /* Build configuration list for PBXNativeTarget "EnjoysportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2409B0C1DAE1715006D9E94 /* Debug */,
+				B2409B0D1DAE1715006D9E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2409B0E1DAE1715006D9E94 /* Build configuration list for PBXNativeTarget "EnjoysportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2409B0F1DAE1715006D9E94 /* Debug */,
+				B2409B101DAE1715006D9E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2409AE71DAE1715006D9E94 /* Enjoysports.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2409AE81DAE1715006D9E94 /* Enjoysports.xcdatamodel */,
+			);
+			currentVersion = B2409AE81DAE1715006D9E94 /* Enjoysports.xcdatamodel */;
+			path = Enjoysports.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2409AD01DAE1715006D9E94 /* Project object */;
+}
