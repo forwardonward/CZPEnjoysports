@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "caidan.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "menu25.png",
       "scale" : "2x"
     },
     {
